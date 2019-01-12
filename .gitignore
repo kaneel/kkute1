@@ -1,0 +1,9 @@
+tags
+out
+npm-debug.log
+dist
+.cache
+node_modules
+*.log
+.DS_Store
+

@@ -1,0 +1,50 @@
+{
+  "name": "kkute1",
+  "version": "0.0.0",
+  "description": "A panel for Kawai k1m",
+  "main": "main.js",
+  "scripts": {
+    "start": "npx electron .",
+    "clean": "rm -rf ./dist",
+    "build": "npm run clean && NODE_ENV=production webpack --config webpack.config.js",
+    "watch": "npm run clean && (NODE_ENV=development webpack --config webpack.config.js & npm start)"
+  },
+  "author": "kaneel",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@babel/plugin-proposal-export-namespace-from": "^7.8.3",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.5.3",
+    "electron-devtools-installer": "^3.0.0",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.2.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "prettier": "^2.0.5",
+    "redux-devtools": "^3.5.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "polished": "^3.5.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-spring": "^8.0.27",
+    "redux": "^4.0.5",
+    "styled-components": "^5.1.0",
+    "styled-normalize": "^8.0.7"
+  }
+}
