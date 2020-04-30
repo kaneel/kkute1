@@ -4,11 +4,18 @@
 
 An editor for my Kawai k1m because it used to exist but was not running on my laptop at all.
 
+
+
 ## Why
 Because I'm a lazy musician and I cannot be bothered with editing the Kawai k1 manually, especially since a lot of its edition relies on trial n error mixing waves together, it becomes easier if you have an user interface that allows fast switching between oscillators and experiment with ring mod. 
 One of the thing that makes the k1 so special is that when using the reversed ring mod, it does not just revert the modulation between s1 and s2, it copies s2 into s1 and s1 into s2, making it pretty hard to replicate with synth panel softwares.
 
 I already spent some hours getting into the kawai sysex after messing with the Renoise "guru" tool, you can find an exemple here: https://gist.github.com/kaneel/8181692
+
+![A screenshot][screenshot]
+![An animation of the element][synthanim1]
+
+
 
 ## What
 A standalone electron React app. CSS's able to do very fine buttons just by itself!
@@ -25,5 +32,6 @@ At the moment, you can:
 
 - a design! 
 - cool options like "reset" and "copy osc x to osc y" (this exists on hardware level and is actually pretty reproducable on software side)
-- dunno? 
 
+[screenshot]: https://i.imgur.com/rgbXdpv.png
+[synthanim1]: https://i.imgur.com/BccbemI.gif
